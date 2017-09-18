@@ -1,5 +1,5 @@
 {
-  "name": "Andr1yk0/attribute-toggler",
+  "name": "@andr1yk0/attribute-toggler",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -22,6 +22,6 @@
     "jquery": "^3.2.1"
   },
   "dependencies": {
-    "requirejs": "^2.3.5"
+    "jquery": "^3.2.1"
   }
 }

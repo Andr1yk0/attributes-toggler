@@ -1,0 +1,27 @@
+{
+  "name": "@username/attribute-toggler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andr1yk0/attributes-toggler.git"
+  },
+  "author": "= <=>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andr1yk0/attributes-toggler/issues"
+  },
+  "homepage": "https://github.com/Andr1yk0/attributes-toggler#readme",
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "jasmine-jquery": "^2.1.1",
+    "jquery": "^3.2.1"
+  },
+  "dependencies": {
+    "requirejs": "^2.3.5"
+  }
+}

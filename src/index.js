@@ -21,6 +21,9 @@ var AttributeToggler = (function () {
                 trigger:event?event:trigger,
                 value:$(e).data('toggle-value')
             };
+            if($(e).attr('data-toggle-part')){
+                newEl.part = $(e).attr('data-toggle-part');
+            }
             elements.push(newEl);
         });
         

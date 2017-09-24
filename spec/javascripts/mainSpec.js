@@ -1,6 +1,7 @@
 describe('AttributeToggler', function () {
     var defaultTrigger = 'click';
     var eventNamespace = '.toggler';
+    jasmine.getFixtures().fixturesPath = 'base/spec/javascripts/fixtures';
 
 
    it('tests are ready', function () {
@@ -71,7 +72,15 @@ describe('AttributeToggler', function () {
         $toggleHrefOnHover.trigger('mouseenter');
         expect($toggleClassOnDefault).toHaveClass('one');
         expect($toggleHrefOnHover.attr('href')).toEqual('one');
-
     });
+    
+    // it('can toggle part of attribute', function () {
+    //     loadFixtures('toggleOneClass.html');
+    //     AttributeToggler.init();
+    //     var $toogleOneClass = $('#toggleOneClass');
+    //     expect($toogleOneClass).toHaveClass('active one');
+    //     $toogleOneClass.trigger('click');
+    //     expect($toogleOneClass).toHaveClass('active two');
+    // })
 
 });
